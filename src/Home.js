@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
+import WelcomeText from './WelcomeText'
 import logo from './images/Jojoheadlogo.jpeg';
 import logo1 from './images/super-jojo.png';
+import logo2 from './images/jojoglasses.jpg';
 import CorgiCircle from './CorgiCircle'
 
 class Home extends Component {
@@ -12,9 +14,9 @@ class Home extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <CorgiCircle corgImages={[logo, logo1]} />
+          <CorgiCircle corgImages={[logo, logo1, logo2]} />
           <p>
-            Welcome, <strong>motha puppers!</strong> {name}
+            <WelcomeText />, <strong>motha puppers!</strong> {name}
           </p>
 
           <a
