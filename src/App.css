@@ -3,23 +3,30 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 150s linear;
   height: 40vmin;
+  border-radius: 50%;
+  border: solid white 2px
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: coral;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(30px + 2vmin);
   color: white;
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
+  opacity: 50%;
+  font-size: 20px;
+  font-family: arial;
+  border: 2px solid white;
+  border-radius: 6px;
 }
 
 @keyframes App-logo-spin {
@@ -27,6 +34,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(180deg);
   }
 }

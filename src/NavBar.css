@@ -1,0 +1,12 @@
+
+
+.NavBar {
+  border: solid white 1px;
+  border-radius: 10px;
+  color: coral;
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
