@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
 import logo from './images/Jojoheadlogo.jpeg';
+import logo1 from './images/super-jojo.png';
+import CorgiCircle from './CorgiCircle'
 
 class Home extends Component {
+
   render() {
-  //  alertMe();
+    var name = "hey"
+  // let logo1 = {logo1}
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <CorgiCircle corgImages={[logo, logo1]} />
           <p>
-            Welcome, <strong>motha puppers!</strong>
+            Welcome, <strong>motha puppers!</strong> {name}
           </p>
+
           <a
             className="App-link"
             href="https://instagram.com/supercorgi_jojo"
@@ -23,7 +28,7 @@ class Home extends Component {
         </header>
       </div>
     );
-//    const alertMe = function() {alert("Hello there")};
+
   }
 }
 
